@@ -25,6 +25,6 @@ Page({
     this.fun();
   },
   fun:function(){
-    dasa
+    
   }
 })
