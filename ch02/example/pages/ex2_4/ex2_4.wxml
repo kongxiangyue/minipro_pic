@@ -1,0 +1,17 @@
+<view>{{message}}</view>
+
+<view id="item-{{id}}"></view>
+
+<view wx:if="{{condition}}">
+abc
+</view>
+
+
+<checkbox checked="{{true}}"></checkbox>
+
+<view hidden="{{flag ? ture : false}}"></view>
+
+<view>{{a+b}} + {{c}} + d</view>
+
+
+

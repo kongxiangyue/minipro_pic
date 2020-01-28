@@ -1,0 +1,13 @@
+<view wx:if="{{condition}}">出现</view>
+
+<view wx:if="{{lengh>5}}">一</view>
+<view wx:elif="{{lengh>2}}">二</view>
+<view wx:else>三</view>
+
+
+<block wx:if="{{condition}}">
+<view>block1</view>
+<view>block2</view>
+
+</block>
+
