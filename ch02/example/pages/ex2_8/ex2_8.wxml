@@ -1,2 +1,8 @@
-<!--pages/ex2_8/ex2_8.wxml-->
-<text>pages/ex2_8/ex2_8.wxml</text>
+<import src="item.wxml"/>
+<template is="item" data="{{text: 'forbar'}}"/>
+
+
+
+<include src="header.wxml"/>
+<view> body </view>
+<include src="footer.wxml"/>

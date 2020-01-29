@@ -1,0 +1,17 @@
+<!--pages/ex2_9/ex2_9.wxml-->
+<wxs module="foo">
+var some_msg = "hello world";
+module.exports = {
+  msg : some_msg,
+}
+</wxs>
+
+<view> {{foo.msg}} </view>
+
+
+
+<wxs src="tools.wxs" module="tools" />
+<view> {{tools.msg}} </view>
+<view> {{tools.bar(tools.FOO)}} </view>
+
+<wxs src="logic.wxs" module="logic" />
