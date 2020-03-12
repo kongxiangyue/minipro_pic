@@ -7,7 +7,7 @@ Page({
   data: {
     message : "Hello MINA",
     id: 2,
-    condition:true,
+    condition: false,
     flag: false,
     a:3,
     b:3,

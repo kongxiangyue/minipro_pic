@@ -8,12 +8,20 @@
 </view>
 
 
-<block wx:for="{{[1,2,3]}}">
+<block wx:for="{{[1,2,3]}}">  <!--wx:key="{{index}}-->
   <view>{{index}}</view>
   <view>{{item}}</view>
 </block>
 
-
-<switch wx:for="{{objectArray}}" wx:key="unique" style="display:block;">
-{{item.id}}
+<view>-----------</view>
+<!--当列表动态变化时（如增加），保证不会乱，
+相当给每个组件绑定了id，从而保证历史数据正确-->
+<switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;"> 
+{{item.id}} 
 </switch>
+
+<button bindtap="switch"> Switch </button>
+<button bindtap="addToFront"> Add to the front </button>
+
+<switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;"> {{item}} </switch>
+<button bindtap="addNumberToFront"> Add to the front </button>

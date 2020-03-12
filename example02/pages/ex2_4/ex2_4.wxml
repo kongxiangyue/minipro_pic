@@ -1,13 +1,13 @@
 <view>{{message}}</view>
 
-<view id="item-{{id}}"></view>
+<view id="item-{{id}}">id的属性</view>
 
 <view wx:if="{{condition}}">
 abc
 </view>
 
 
-<checkbox checked="{{true}}"></checkbox>
+<checkbox checked="{{condition}}"></checkbox>
 
 <view hidden="{{flag ? ture : false}}"></view>
 
