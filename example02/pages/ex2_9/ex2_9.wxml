@@ -1,17 +1,20 @@
 <!--pages/ex2_9/ex2_9.wxml-->
+
+<view>内部引用</view>
 <wxs module="foo">
 var some_msg = "hello world";
 module.exports = {
-  msg : some_msg,
+  msg : some_msg
 }
 </wxs>
 
 <view> {{foo.msg}} </view>
 
 
-
+<view>外链引用</view>
 <wxs src="tools.wxs" module="tools" />
 <view> {{tools.msg}} </view>
 <view> {{tools.bar(tools.FOO)}} </view>
 
+<view>多层引用</view>
 <wxs src="logic.wxs" module="logic" />

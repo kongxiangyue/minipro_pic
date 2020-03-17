@@ -6,6 +6,6 @@ var bar = function (d) {
 
 module.exports = {
   FOO: foo,
-  bar: bar,
+  bar: bar
 };
 module.exports.msg = "some msg";

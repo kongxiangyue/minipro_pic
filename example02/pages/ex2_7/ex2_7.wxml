@@ -1,3 +1,4 @@
+<!--定义-->
 <template name="msgItem">
   <view>
     <text>{{index}}:{{msg}}</text>
@@ -5,10 +6,13 @@
   </view>
 </template>
 
-
+<!--使用-->
 <template is="msgItem" data="{{...item}}">
 </template>
 
+<view>----------------------</view>
+
+<view>is可以使用三元运算</view>
 
 <template name="odd">
   <view> odd </view>
