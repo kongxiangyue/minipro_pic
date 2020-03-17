@@ -1,0 +1,50 @@
+/* pages/ex3_1_2/ex3_1_2.wxss */
+
+.page-section-spacing{
+  margin-top: 60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 300rpx;
+}
+
+
+.flex-wrp {
+  display: flex;
+}
+.flex-item {
+  width: 100px;
+  height: 100px;
+}
+
+.demo-text-1 {
+  background-color: red;
+}
+
+.demo-text-1-hover {
+  background-color:aqua;
+}
+
+.demo-text-2 {
+  background-color: green;
+}
+
+.demo-text-3 {
+  background-color: blue;
+ 
+}
+
+.flex-item-V  {
+  display: block;
+}
+
+
+
+

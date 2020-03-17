@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/ex3_2_3/ex3_2_3",
+    "pages/ex3_2_2/ex3_2_2",
+    "pages/ex3_2_1/ex3_2_1",
+    "pages/ex3_1_5/ex3_1_5",
+    "pages/ex3_1_4/ex3_1_4",
+    "pages/ex3_1_3/ex3_1_3",
+    "pages/ex3_1_2/ex3_1_2",
+    "pages/ex3_1_1/ex3_1_1"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
