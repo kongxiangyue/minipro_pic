@@ -1,12 +1,11 @@
-// pages/ex2_5/ex2_5.js
+// pages/ex3_3_5/ex3_3_5.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    condition:true,
-    lengh:4
+
   },
 
   /**

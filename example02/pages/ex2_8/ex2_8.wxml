@@ -1,3 +1,4 @@
+
 <import src="item.wxml"/>
 <template is="item" data="{{text: 'forbar'}}"/>
 

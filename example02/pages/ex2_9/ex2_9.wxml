@@ -6,15 +6,18 @@ var some_msg = "hello world";
 module.exports = {
   msg : some_msg
 }
+
+
+
 </wxs>
 
 <view> {{foo.msg}} </view>
 
 
 <view>外链引用</view>
-<wxs src="tools.wxs" module="tools" />
-<view> {{tools.msg}} </view>
-<view> {{tools.bar(tools.FOO)}} </view>
+<wxs src="tools.wxs" module="tools2" />
+<view> {{tools2.msg}} </view>
+<view> {{tools2.bar(tools2.FOO)}} </view>
 
 <view>多层引用</view>
 <wxs src="logic.wxs" module="logic" />

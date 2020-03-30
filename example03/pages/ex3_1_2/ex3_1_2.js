@@ -7,7 +7,7 @@ Page({
   },
 
   data: {
-    toView: 'green'
+    toView: 'demo2'
   },
 
   upper(e) {

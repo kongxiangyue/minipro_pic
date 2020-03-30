@@ -1,13 +1,13 @@
 {
   "pages": [
-    "pages/ex2_6/ex2_6",
-    "pages/ex2_4/ex2_4",
-    "pages/ex2_3_6/ex2_3_6",
     "pages/ex2_9/ex2_9",
     "pages/ex2_8/ex2_8",
     "pages/ex2_7/ex2_7",
+    "pages/ex2_6/ex2_6",
+    "pages/ex2_5/ex2_5",
+    "pages/ex2_4/ex2_4",
+    "pages/ex2_3_6/ex2_3_6"
     
-    "pages/ex2_5/ex2_5"
     
   ],
   "window": {
