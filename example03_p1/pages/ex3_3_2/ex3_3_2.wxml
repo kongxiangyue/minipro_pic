@@ -1,0 +1,8 @@
+<checkbox-group bindchange="checkboxChange">
+
+  <label  class="checkbox" wx:for="{{items}}" for="check-{{index}}">
+    <checkbox id="check-{{index}}" value="{{item.name}}" 
+    checked="{{item.checked}}"/>{{item.value}}
+  </label>
+  
+</checkbox-group>

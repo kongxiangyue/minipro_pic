@@ -1,24 +1,25 @@
 {
   "pages": [
+    "pages/ex3_3_10/ex3_3_10",
+    "pages/ex3_3_9/ex3_3_9",
+    "pages/ex3_3_8/ex3_3_8",
+    "pages/ex3_3_7/ex3_3_7",
     "pages/ex3_3_5/ex3_3_5",
-    
+    "pages/ex3_3_6/ex3_3_6",
+    "pages/ex3_3_3/ex3_3_3",
+    "pages/ex3_3_2/ex3_3_2",
+    "pages/ex3_3_4/ex3_3_4",
     "pages/ex3_3_1/ex3_3_1",
+
+
+   
     "pages/ex3_2_4/ex3_2_4",
     "pages/ex3_2_2/ex3_2_2",
     "pages/ex3_2_3/ex3_2_3",
-    
-    "pages/ex3_3_2/ex3_3_2",
-    
     "pages/ex3_2_1/ex3_2_1",
-    
     "pages/ex3_1_5/ex3_1_5",
-    
     "pages/ex3_1_4/ex3_1_4",
-    "pages/ex3_3_4/ex3_3_4",
-    
-    
-    
-    "pages/ex3_3_6/ex3_3_6",
+   
     "pages/ex3_1_3/ex3_1_3",
     "pages/ex3_5_2/ex3_5_2",
     "pages/ex3_1_1/ex3_1_1"

@@ -5,7 +5,19 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    height: 20,
+    focus: false
+  },
+  bindButtonTap: function () {
+    this.setData({
+      focus: true
+    })
+  },
+  bindTextAreaBlur: function (e) {
+    console.log(e.detail.value)
+  },
+  bindFormSubmit: function (e) {
+    console.log(e.detail.value.textarea)
   },
 
   /**

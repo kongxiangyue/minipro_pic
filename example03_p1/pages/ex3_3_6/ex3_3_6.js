@@ -25,6 +25,7 @@ Page({
   },
   checkboxChange: function (e) {
     var checked = e.detail.value
+    console.log(checked);
     var changed = {}
     for (var i = 0; i < this.data.checkboxItems.length; i++) {
       if (checked.indexOf(this.data.checkboxItems[i].name) !== -1) {
