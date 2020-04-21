@@ -1,0 +1,3 @@
+
+<input maxlength="10" placeholder="请输入信息" bindblur="onBlur" />
+<text>{{input_value}}</text>

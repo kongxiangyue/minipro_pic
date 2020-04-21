@@ -1,0 +1,27 @@
+/* pages/p03/p03.wxss */
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
+.view-size {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.view-a {
+  background-color: red;
+}
+
+.view-b {
+  background-color: green;
+}
+
+.view-c {
+  background-color: blue;
+}
+
+.view-a-hover {
+  background-color:  brown;
+}

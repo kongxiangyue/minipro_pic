@@ -1,0 +1,12 @@
+/* pages/p05/p05.wxss */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  white-space: nowrap;
+}
+
+.item {
+  margin-right: 10px;
+  
+}

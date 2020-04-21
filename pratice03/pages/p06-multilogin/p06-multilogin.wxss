@@ -1,0 +1,30 @@
+/* pages/p06-multilogin/p06-multilogin.wxss */
+.login-title {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.title {
+  width: 50%;
+  text-align: center;
+  font-size: 12px;
+  height: 45px;
+  line-height: 45px;
+
+}
+.select {
+  border-bottom: 2px solid green;
+  color: green;
+}
+
+
+.default {
+  color: black;
+}
+
+.hr {
+  border-bottom: 1px solid #cccccc;
+  opacity: .5;
+  height: 5px;
+}

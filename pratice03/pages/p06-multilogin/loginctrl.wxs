@@ -1,0 +1,27 @@
+
+var tab0class = "title select";
+var tab1class = "title default";
+
+// 如果是多个tab怎么办
+module.exports.onNav = function(event, ownerInstance) {
+  //console.log('tap wechat', JSON.stringify(event))
+  console.log(event);
+  tab1class = "title default";
+  tab0class = "title default";
+  
+  if (0 == event.currentTarget.dataset.current) {
+    tab0class = "title select";
+  } else if (1 == event.currentTarget.dataset.current ) {
+    tab1class = "title select";
+  }
+
+
+
+}
+
+module.exports.tab0class = tab0class;
+module.exports.tab1class = tab1class;
+
+
+
+

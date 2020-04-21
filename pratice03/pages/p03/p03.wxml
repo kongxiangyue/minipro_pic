@@ -1,0 +1,6 @@
+<view class="body">
+<view class="view-size view-a" hover-class="view-a-hover"></view>
+<view class="view-size view-b"></view>
+<view class="view-size view-c"></view>
+
+</view>

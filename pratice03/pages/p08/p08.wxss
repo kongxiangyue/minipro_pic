@@ -1,0 +1,22 @@
+/*复选框外框样式*/
+checkbox .wx-checkbox-input {
+  width: 40rpx;
+  height: 40rpx;
+  border: 4rpx solid #999;
+  border-radius: 100%;
+}
+/*复选框外框选中样式*/
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  border-color: #3cbcee;
+}
+
+/*复选框选中后内部样式*/
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 60%;
+  height: 60%;
+  background: #3cbcee;
+  border-radius: 100%;
+  content: '';
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

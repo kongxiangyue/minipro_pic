@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/p06-multilogin/p06-multilogin",
+    "pages/p08-2/p08-2",
+    "pages/p08/p08",
+    "pages/p05/p05",
+    "pages/p03/p03"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

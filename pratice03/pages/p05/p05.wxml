@@ -1,0 +1,20 @@
+<scroll-view scroll-x="true" style="width:100%;">
+  <view class="flex-row">
+    <view class="item">推荐</view>
+    <view class="item">视频</view>
+    <view class="item">热点</view>
+    <view class="item">本地</view>
+    <view class="item">社会</view>
+    <view class="item">娱乐</view>
+    <view class="item">科技</view>
+    <view class="item">汽车</view>
+    <view class="item">体育</view>
+    <view class="item">财经</view>
+    <view class="item">军事</view>
+    <view class="item">国际</view>
+    <view class="item">时尚</view>
+    <view class="item">游戏</view>
+    <view class="item">美文</view>
+  </view>
+</scroll-view>
+

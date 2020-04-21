@@ -1,0 +1,27 @@
+<!--
+<wxs src="loginctrl.wxs" module="loginctrl"/>
+-->
+<view class="content">
+  <view class="login-title">
+    <view data-current="0" bindtap="onNav" class="{{tab0class}}">账号密码登录</view>
+    <view data-current="1" bindtap="onNav" class="{{tab1class}}">手机快捷登录</view>
+  </view>
+  
+  <view class="hr">  </view>
+
+
+  <swiper current="{{curTab}}" bindchange="onSwiperChange">
+
+    <swiper-item>
+      <view class="item">进行账号登录界面</view>
+    </swiper-item>
+
+     <swiper-item>
+      <view class="item1">进行手机登录界面</view>
+    </swiper-item>
+
+  </swiper>
+
+
+
+</view>
