@@ -9,9 +9,11 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "wxa7730e0596be9404",
+	"appid": "wx90c7d8631aa89dc0",
 	"projectname": "zxtrain",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
