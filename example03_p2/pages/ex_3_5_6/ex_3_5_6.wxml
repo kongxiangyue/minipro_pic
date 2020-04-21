@@ -1,0 +1,2 @@
+<live-pusher url="https://domain/push_stream" mode="RTC" autopush 
+bindstatechange="statechange" style="width: 300px; height: 225px;" />

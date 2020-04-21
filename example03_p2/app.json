@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/ex_3_7/ex_3_7",
+    "pages/ex_3_5_5/ex_3_5_5",
+    "pages/ex_3_5_4/ex_3_5_4",
+    "pages/ex_3_5_3/ex_3_5_3",
+    "pages/ex_3_5_2/ex_3_5_2",
+    "pages/ex_3_5_1/ex_3_5_1",
+    "pages/ex_3_6/ex_3_6",
+    "pages/ex_3_5_6/ex_3_5_6"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
