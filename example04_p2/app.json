@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/ex_4_8_1_sys/ex_4_8_1_sys",
+    "pages/ex_4_7_2_map/ex_4_7_2_map",
+    "pages/ex_4_7_1_location/ex_4_7_1_location"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

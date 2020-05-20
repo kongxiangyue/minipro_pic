@@ -1,0 +1,5 @@
+<button bindtap="getLocation" >getLocation</button>
+<text>\n</text>
+<button bindtap="chooseLocation" >chooseLocation</button>
+<text>\n</text>
+<button bindtap="openLocation" >openLocation</button>
