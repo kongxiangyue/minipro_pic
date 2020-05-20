@@ -1,0 +1,6 @@
+<button bindtap="onSave" >保存文件</button>
+<text>\n</text>
+<button bindtap="onList" >获取列表</button>
+<text>\n</text>
+<button bindtap="onOpen" >打开文档</button>
+

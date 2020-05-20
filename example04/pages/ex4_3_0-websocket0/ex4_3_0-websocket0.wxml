@@ -1,0 +1,5 @@
+<button bindtap="click">开始websocket</button>
+<text>请事先开启websocket服务器</text>
+<button bindtap="send">发送信息</button>
+<text>\n</text>
+<button bindtap="end">结束websocket</button>

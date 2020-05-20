@@ -1,0 +1,29 @@
+<view class="page">
+  <button bindtap="onConnect">创建连接</button>
+  <text>\n</text>
+  <button bindtap="onClose">关闭连接</button>
+  <text>\n</text>
+  <view class="sendarea">
+    <input class="message" bindblur="getMessage" name="message" placeholder="输入发送信息"></input>
+    <view class="sendbtn"  bindtap="onsend">发送信息</view>
+  </view> 
+
+  <view class="sendmassagearea">
+    <view class="message_title">客户端发送的消息</view>
+    <scroll-view scroll-y="true" class="message_area send_area">
+      <view wx:for="{{sendarray}}">{{item}}</view>
+    </scroll-view>
+  </view>
+
+
+  <view class="receivemassagearea">
+    <view class="message_title">服务端返回的消息</view>
+    <scroll-view scroll-y="true" class="message_area receive_area">
+      <view wx:for="{{receivearray}}">{{item}}</view>
+    </scroll-view>
+
+
+  </view>
+
+
+</view>

@@ -1,0 +1,12 @@
+<image src="{{src}}"></image>
+<button bindtap="choose">选择图片</button>
+<text>\n</text>
+
+<button bindtap="preview">预览图片</button>
+<text>\n</text>
+
+<button bindtap="getinfo">获取信息</button>
+<text>\n</text>
+
+<button bindtap="save">下载并保存</button>
+<text>\n</text>

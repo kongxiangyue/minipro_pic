@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/ex4_3_0-websocket0/ex4_3_0-websocket0",
+    "pages/ex4_3-websocket/ex4_3-websocket",
+    "pages/ex4_2-download/ex4_2-download",
+    "pages/ex4_5-file/ex4_5-file",
+    "pages/ex4_6-storage/ex4_6-storage",
+    "pages/ex4_4-choose/ex4_4-choose",
+    "pages/ex4_1/ex4_1",
+    "pages/ex4_10-login/ex4_10-login"
+    ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

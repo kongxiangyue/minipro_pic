@@ -1,0 +1,5 @@
+<!--pages/ex4_1/ex4_1.wxml-->
+
+<image src="/images/notice.png"></image>
+<button bindtap="send">发起请求</button>
+<text>{{math}}</text>

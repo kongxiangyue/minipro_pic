@@ -1,0 +1,9 @@
+
+
+<button bindtap="chooseImg">选择上传图片</button>
+
+
+<image src="{{src}}"></image>
+<button bindtap="download">下载图片</button>
+
+

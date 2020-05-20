@@ -1,0 +1,5 @@
+/* pages/ex4_6-storage/ex4_6-storage.wxss */
+
+.btn{
+  margin: 50rpx 0rpx 0rpx 0rpx;
+}

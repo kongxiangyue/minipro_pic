@@ -1,0 +1,7 @@
+<view class="btn">
+  <button bindtap="onSave" type="primary">保存</button>
+</view>
+
+<text>\n</text>
+<button bindtap="onGet" >获取</button>
+<text>获取的数据:{{storage}}</text>
